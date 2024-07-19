@@ -34,7 +34,7 @@ cd git-2.45.2
 
 make prefix=/usr/local/git all 
 
-make prefix=/usr/local/git install 
+make prefix=/usr/local/git install  -y
 
 
 vim ~/.bashrc
